@@ -7,6 +7,7 @@
   $_SESSION['name'] = $_POST['name'];
   $_SESSION['email'] = $_POST['email'];
   $_SESSION['gender'] = $_POST['gender'];
+
 ?>
 
 <!DOCTYPE html>
