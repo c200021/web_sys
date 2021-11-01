@@ -19,7 +19,7 @@
     $stmt->bindValue(':gender', $gender, PDO::PARAM_INT);
     $stmt->execute(); 
     // [DB切断]
-    $pdo = null;
+    $ = null;
     }catch (PDOException $e){ 
         echo($e->getMessage()); 
         die(); 
